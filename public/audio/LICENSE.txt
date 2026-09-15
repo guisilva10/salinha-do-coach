@@ -1,0 +1,27 @@
+Faixas de lofi do LofiPlayer (src/features/world/presentation/components/lofi-player.tsx)
+==========================================================================================
+
+STATUS: nenhuma faixa foi adicionada ainda.
+
+Não consegui verificar/baixar faixas com licença CC0 (ou CC-BY com atribuição
+correta) dentro do ambiente desta sessão sem risco de usar áudio sem licença
+clara — por isso o player está com uma playlist configurável apontando pra
+arquivos que ainda não existem (lofi-1.mp3, lofi-2.mp3). O componente já lida
+com isso de forma graciosa (mostra "Faixas indisponíveis", não quebra).
+
+Antes de ir pra produção, adicionar aqui:
+1. 2-3 faixas .mp3 de lofi/ambiente instrumental, CC0 ou CC-BY, baixadas de
+   uma fonte verificável (ex.: Free Music Archive, Pixabay Music, ccMixter).
+2. Pra cada faixa: título, autor, fonte (URL), licença exata (CC0-1.0,
+   CC-BY-4.0, etc). Se CC-BY, o crédito também precisa aparecer em algum
+   lugar visível do produto (ex.: rodapé ou tela de créditos), não só aqui.
+3. Atualizar `LOFI_TRACKS` em lofi-player.tsx com os arquivos reais.
+
+Formato sugerido por faixa:
+---
+Título:  <nome da faixa>
+Autor:   <nome do artista>
+Fonte:   <URL de onde foi baixada>
+Licença: <CC0-1.0 | CC-BY-4.0 | ...>
+Arquivo: lofi-N.mp3
+---
